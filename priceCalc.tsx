@@ -1,4 +1,6 @@
-const PRICE_REGEX = /\+\$?([0-9.]+)/;
+import {h, render} from 'preact';
+
+export const PRICE_REGEX = /\(\+\$?([0-9.]+)\)/;
 
 export function renderPriceCalculator(formEl: Element) {
   const labels = Array.from(formEl.querySelectorAll('label'));
@@ -14,6 +16,12 @@ export function renderPriceCalculator(formEl: Element) {
   breakdownContainer.append(costEl);
 
   const buttons = formEl.querySelector('.form-button-wrapper');
+
+  const productCost = Number(
+    document
+      .querySelector('meta[property="product:price:amount"]')!
+      .getAttribute('content')
+  );
 
   if (buttons !== null) {
     buttons.insertAdjacentElement('beforebegin', breakdownContainer);
@@ -48,7 +56,21 @@ export function renderPriceCalculator(formEl: Element) {
       })
       .reduce((acc, value) => acc + value, 0);
 
-    costEl.innerText = 'Estimated Additional Cost: $' + price.toFixed(2);
+    render(
+      <div className="price-breakdown">
+        <dl>
+          <dt>Deposit price</dt>
+          <dd>${productCost.toFixed(2)}</dd>
+          <dt>Customizations</dt>
+          <dd>${price.toFixed(2)}</dd>
+        </dl>
+        <dl className="total">
+          <dt>Estimated total</dt>
+          <dd>${(price + productCost).toFixed(2)}</dd>
+        </dl>
+      </div>,
+      costEl
+    );
   };
 
   // Assign handlers to compute the updated price each time the labels change

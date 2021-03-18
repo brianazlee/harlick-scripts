@@ -4,7 +4,7 @@ import {PRICE_REGEX} from './priceCalc';
 
 type Item = {
   name: string;
-  desc: h.JSX.Element;
+  desc?: h.JSX.Element;
   image?: string;
   hideNoCharge?: boolean;
 };
@@ -149,10 +149,14 @@ const descriptions: Description[] = [
         desc: (
           <p>
             Three layer construction boots are going to have more body and offer more
-            stiffness in the ankle support. The three layer boot will require more Break
+            stiffness in the ankle support. The three layer boot will require more break
             in but will ultimately offer greater support than the two layer boots.
           </p>
         ),
+      },
+      {
+        name: 'Unsure',
+        hideNoCharge: true,
       },
     ],
   },

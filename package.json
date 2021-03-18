@@ -6,6 +6,7 @@
   "author": "Evan Purkhiser <evanpurkhiser@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@evanpurkhiser/eslint-config": "^0.9.1",
     "@types/arrive": "^2.4.0",
     "arrive": "^2.4.1",
     "eslint": "^7.22.0",

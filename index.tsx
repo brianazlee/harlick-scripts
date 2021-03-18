@@ -1,6 +1,6 @@
 import 'arrive';
-
 import './styles.less';
+
 import {renderPriceCalculator} from './priceCalc';
 
 function handleFormVisible(formEl: Element) {
@@ -25,7 +25,7 @@ function handleFormVisible(formEl: Element) {
       const optionName = option.innerText.trim();
       const optionLabel = option.querySelector('label')!;
       const optionDesc = fieldset.querySelector(
-        '.description [data-option-for="' + optionName + '"]'
+        `.description [data-option-for="${optionName}"]`
       );
 
       if (optionDesc === null) {
@@ -41,11 +41,11 @@ function handleFormVisible(formEl: Element) {
       fieldset.querySelectorAll<HTMLLegendElement>('fieldset legend')
     );
 
-    legends.forEach(function (legend) {
+    legends.forEach(legend => {
       const name = legend.innerText.trim();
 
       const desc = fieldset.querySelector(
-        '.description [data-description-for="' + name + '"]'
+        `.description [data-description-for="${name}"]`
       );
 
       if (desc === null) {

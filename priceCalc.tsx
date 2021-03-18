@@ -17,11 +17,9 @@ export function renderPriceCalculator(formEl: Element) {
 
   const buttons = formEl.querySelector('.form-button-wrapper');
 
-  const productCost = Number(
-    document
-      .querySelector('meta[property="product:price:amount"]')!
-      .getAttribute('content')
-  );
+  const productCost = document
+    .querySelector('meta[property="product:price:amount"]')
+    ?.getAttribute('content');
 
   if (buttons !== null) {
     buttons.insertAdjacentElement('beforebegin', breakdownContainer);
@@ -56,21 +54,23 @@ export function renderPriceCalculator(formEl: Element) {
       })
       .reduce((acc, value) => acc + value, 0);
 
-    render(
-      <div className="price-breakdown">
-        <dl>
-          <dt>Deposit price</dt>
-          <dd>${productCost.toFixed(2)}</dd>
-          <dt>Customizations</dt>
-          <dd>${price.toFixed(2)}</dd>
-        </dl>
-        <dl className="total">
-          <dt>Estimated total</dt>
-          <dd>${(price + productCost).toFixed(2)}</dd>
-        </dl>
-      </div>,
-      costEl
-    );
+    if (productCost !== null) {
+      render(
+        <div className="price-breakdown">
+          <dl>
+            <dt>Deposit price</dt>
+            <dd>${Number(productCost).toFixed(2)}</dd>
+            <dt>Customizations</dt>
+            <dd>${price.toFixed(2)}</dd>
+          </dl>
+          <dl className="total">
+            <dt>Estimated total</dt>
+            <dd>${(price + Number(productCost)).toFixed(2)}</dd>
+          </dl>
+        </div>,
+        costEl
+      );
+    }
   };
 
   // Assign handlers to compute the updated price each time the labels change

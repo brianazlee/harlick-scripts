@@ -22,7 +22,7 @@ const descriptions: Description[] = [
       {
         name: 'Standard Elk leather',
         image:
-          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/605309e3c190496c5f703c33/1616054755927/Rectangle+5-1.png?format=750w',
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053aff21335493aa48532f9/1616097266916/Standard+Elk+Leather.png?format=500w',
         desc: (
           <div>
             <p>
@@ -66,6 +66,8 @@ const descriptions: Description[] = [
       },
       {
         name: 'Additional colored calf',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053aff1cde59d65474fa784/1616097265839/Rectangle+9.png?format=500w',
         desc: (
           <div>
             <p>
@@ -173,7 +175,12 @@ const descriptions: Description[] = [
           'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/605309e5b22f244600413ee3/1616054757708/Rectangle+5.png?format=750w',
         desc: <div />,
       },
-      {name: '50/50 (polyurethane and lambs wool)', desc: <div />},
+      {
+        name: '50/50 (polyurethane and lambs wool)',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053aff26655ff39b2423426/1616097266918/Rectangle+6.png?format=500w',
+        desc: <div />,
+      },
       {name: 'Leather or clarino covered polyeurethan foam tongues', desc: <div />},
     ],
   },
@@ -292,6 +299,8 @@ const descriptions: Description[] = [
       {name: 'None', desc: <div />},
       {
         name: 'Lightweight carbon graphite soles',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053aff2eaa9a8018c1ee554/1616097266920/Rectangle+8.png?format=500w',
         desc: (
           <p>
             Lightweight carbon fiber soles can reduce the boot weight by 20% without
@@ -321,8 +330,18 @@ const descriptions: Description[] = [
   {
     section: 'Sole finish color',
     items: [
-      {name: 'Natural', desc: <div />},
-      {name: 'Black', desc: <div />},
+      {
+        name: 'Natural',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053098ffbb7162bd07c0250/1616054671424/Rectangle+7.png?format=500w',
+        desc: <div />,
+      },
+      {
+        name: 'Black',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053098ed1b52f422f2bd490/1616054670360/Rectangle+5.png?format=500w',
+        desc: <div />,
+      },
     ],
   },
 
@@ -330,12 +349,37 @@ const descriptions: Description[] = [
     section: 'Sole finish options',
     items: [
       {name: 'No sole finish', desc: <div />},
-      {name: 'Clear wax finish', desc: <div />},
-      {name: 'Black sole finish (on black boots only)', desc: <div />},
+      {
+        name: 'Clear wax finish',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/604dff35a0288525902fcf40/1615724381644/File_109.jpg?format=500w',
+        desc: <div />,
+      },
+      {
+        name: 'Black sole finish (on black boots only)',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053098ed1b52f422f2bd490/1616054670360/Rectangle+5.png?format=500w',
+        desc: <div />,
+      },
       {name: 'Wax / sealer', desc: <div />},
-      {name: 'Chem glaze', desc: <div />},
-      {name: 'Chem glaze with light to medium glitter', desc: <div />},
-      {name: 'Chem glaze with heavy glitter', desc: <div />},
+      {
+        name: 'Chem glaze',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053098f85ad213cde310507/1616054671431/Rectangle+6.png?format=500w',
+        desc: <div />,
+      },
+      {
+        name: 'Chem glaze with light to medium glitter',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053098df6334f7eb9f00f93/1616054669283/Rectangle+4.png?format=500w',
+        desc: <div />,
+      },
+      {
+        name: 'Chem glaze with heavy glitter',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053098f933c4c201208f104/1616054671439/Rectangle+3.png?format=500w',
+        desc: <div />,
+      },
       {name: 'Chem glaze with solid coat glitter', desc: <div />},
     ],
   },
@@ -429,13 +473,20 @@ const descriptions: Description[] = [
   {
     section: 'Backstays',
     items: [
-      {name: 'No backstay', desc: <div />},
+      {
+        name: 'No backstay',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053b1eec02ba770d353fa7d/1616097774700/Rectangle+7.png?format=500w',
+        desc: <div />,
+      },
       {
         name: 'Low cut backstay',
         desc: <p>¼ to ½ inch deep cutout to increase toe pointing and range of motion</p>,
       },
       {
         name: 'Low cut backstay with insert (lower than height of dance backstay)',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/605309e3d1b52f422f2bd767/1616054755850/Rectangle+2-1.png?format=500w',
         desc: (
           <p>
             ¼ to ½ inch deep cutout to increase toe pointing and range of motion with an
@@ -445,6 +496,8 @@ const descriptions: Description[] = [
       },
       {
         name: 'Dance backstay',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053b26f12ac4465104f74f9/1616097903401/Rectangle+8.png?format=500w',
         desc: (
           <p>
             ½ to ¾ inch deep cutout to increase toe pointing and range of motion. Ideal
@@ -454,6 +507,8 @@ const descriptions: Description[] = [
       },
       {
         name: '"BB" backstay (extra padded top collar)',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053b36857941d6894102771/1616098152207/Rectangle+9.png?format=500w',
         desc: (
           <p>
             Low cut sides and back with ¼ inch polyurethane padding that extends above the

@@ -1,4 +1,6 @@
 import 'arrive';
+
+import './styles.less';
 import {renderPriceCalculator} from './priceCalc';
 
 function handleFormVisible(formEl: Element) {

@@ -20,7 +20,7 @@ const descriptions: Description[] = [
     section: 'Upper boot material options',
     items: [
       {
-        name: 'Standard Elk leather',
+        name: 'Standard elk leather',
         image:
           'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053aff21335493aa48532f9/1616097266916/Standard+Elk+Leather.png?format=500w',
         desc: (

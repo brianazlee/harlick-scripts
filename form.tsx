@@ -86,13 +86,10 @@ const descriptions: Description[] = [
         image:
           'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/605309e55d8f16380e27214c/1616054757123/Rectangle+8.png?format=750w',
         desc: (
-          <div>
-            <strong>Specialty Leather (+$100.00)</strong>
-            <p>
-              Specialty leathers have the same structural qualities as the calf leathers
-              but is available as animal print or with embossed treatments.
-            </p>
-          </div>
+          <p>
+            Specialty leathers have the same structural qualities as the calf leathers but
+            is available as animal print or with embossed treatments.
+          </p>
         ),
       },
     ],

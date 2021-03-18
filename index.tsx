@@ -1,57 +1,8 @@
 import 'arrive';
-
-const PRICE_REGEX = /\+\$?([0-9.]+)/;
+import {renderPriceCalculator} from './priceCalc';
 
 function handleFormVisible(formEl: Element) {
-  const labels = Array.from(formEl.querySelectorAll('label'));
-
-  const breakdownContainer = document.createElement('div');
-  breakdownContainer.classList.add('cost-breakdown');
-
-  const cost = document.createElement('h4');
-  cost.classList.add('cost');
-
-  breakdownContainer.append(cost);
-
-  const buttons = formEl.querySelector('.form-button-wrapper');
-
-  if (buttons !== null) {
-    buttons.insertAdjacentElement('beforebegin', breakdownContainer);
-  }
-
-  // Get all labels + prices associated to the label being selected
-  const extraCostLabels = labels
-    .map(label => {
-      const costMatch = label.innerText.match(PRICE_REGEX);
-
-      if (costMatch === null) {
-        return null;
-      }
-
-      return {label: label, cost: costMatch[1]};
-    })
-    .filter(value => value !== null);
-
-  const computeTotalPrice = () => {
-    const price = extraCostLabels
-      .map(obj =>
-        obj?.label?.querySelector('input')?.checked ? parseInt(obj.cost, 10) : 0
-      )
-      .reduce((acc, value) => acc + value, 0);
-
-    cost.innerText = 'Estimated Additional Cost: $' + price.toFixed(2);
-  };
-
-  // Assign handlers to compute the updated price each time the labels change
-  labels.forEach(label => {
-    const input = label.querySelector('input');
-
-    if (input) {
-      input.addEventListener('change', computeTotalPrice);
-    }
-  });
-
-  computeTotalPrice();
+  renderPriceCalculator(formEl);
 
   // Convert labels into selectable items
   const fieldsets = Array.from(formEl.querySelectorAll('fieldset'));

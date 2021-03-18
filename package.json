@@ -1,0 +1,19 @@
+{
+  "name": "harlick",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:brianazlee/harlick-scripts.git",
+  "author": "Evan Purkhiser <evanpurkhiser@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/arrive": "^2.4.0",
+    "arrive": "^2.4.1",
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "build": "yarn parcel build index.tsx"
+  }
+}

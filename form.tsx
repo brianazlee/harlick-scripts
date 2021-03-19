@@ -353,7 +353,7 @@ const descriptions: Description[] = [
       {
         name: 'Clear wax finish',
         image:
-          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/604dff35a0288525902fcf40/1615724381644/File_109.jpg?format=500w',
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053e9bb66049027a975d6ef/1616112060087/Rectangle+7+%281%29.png?format=1000w',
         desc: <div />,
       },
       {
@@ -509,7 +509,7 @@ const descriptions: Description[] = [
       {
         name: '"BB" backstay (extra padded top collar)',
         image:
-          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053b36857941d6894102771/1616098152207/Rectangle+9.png?format=500w',
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053e9b8d50e0a711a468fe6/1616112056730/Rectangle+9+%281%29.png?format=1000w',
         desc: (
           <p>
             Low cut sides and back with ¼ inch polyurethane padding that extends above the
@@ -528,7 +528,7 @@ const descriptions: Description[] = [
         name: 'Artistic design (inquire about design options) (Starting from $75.00)',
         hideNoCharge: true,
         image:
-          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/605309e38216e42d71715e3a/1616054755911/Rectangle+3-3.png?format=750w',
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053e9bb46333f16efd03249/1616112059242/Rectangle+3.png?format=1000w',
         desc: (
           <div>
             <p>

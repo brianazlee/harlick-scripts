@@ -100,6 +100,8 @@ const descriptions: Description[] = [
     items: [
       {
         name: 'Heel hugger padding',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053ebff91d9ec7f0b2cf5f8/1616112639869/Rectangle+6.png?format=1000w',
         desc: (
           <p>
             Heel hugger padding is additional padding added through the Achilles’ tendon
@@ -167,7 +169,7 @@ const descriptions: Description[] = [
       {
         name: 'Polyurethane foam padded tongues',
         image:
-          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/605309e30d9ceb298c7958a5/1616054755943/Rectangle+2-5.png?format=750w',
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053ecc59bdac0289f8de354/1616112837904/Rectangle+7+%282%29.png?format=1000w',
         desc: <div />,
       },
       {
@@ -182,7 +184,12 @@ const descriptions: Description[] = [
           'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053aff26655ff39b2423426/1616097266918/Rectangle+6.png?format=500w',
         desc: <div />,
       },
-      {name: 'Leather or clarino covered polyeurethan foam tongues', desc: <div />},
+      {
+        name: 'Leather or clarino covered polyeurethan foam tongues',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/605309e30d9ceb298c7958a5/1616054755943/Rectangle+2-5.png?format=750w',
+        desc: <div />,
+      },
     ],
   },
 

@@ -190,7 +190,12 @@ const descriptions: Description[] = [
     section: 'Tongue options',
     items: [
       {name: 'Extra wide tongues', desc: <div />},
-      {name: '1 or 2 hooks on tongues', desc: <div />},
+      {
+        name: '1 or 2 hooks on tongues',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053eb674e4af10aaf0ab743/1616112487679/Rectangle+5.png?format=1000w',
+        desc: <div />,
+      },
       {name: 'Lace loop holes on tongues', desc: <div />},
     ],
   },

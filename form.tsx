@@ -364,8 +364,6 @@ const descriptions: Description[] = [
       {name: 'No sole finish', desc: <div />},
       {
         name: 'Clear wax finish',
-        image:
-          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053e9bb66049027a975d6ef/1616112060087/Rectangle+7+%281%29.png?format=1000w',
         desc: <div />,
       },
       {
@@ -374,7 +372,12 @@ const descriptions: Description[] = [
           'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053098ed1b52f422f2bd490/1616054670360/Rectangle+5.png?format=500w',
         desc: <div />,
       },
-      {name: 'Wax / sealer', desc: <div />},
+      {
+        name: 'Wax / sealer',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053e9bb66049027a975d6ef/1616112060087/Rectangle+7+%281%29.png?format=1000w',
+        desc: <div />,
+      },
       {
         name: 'Chem glaze',
         image:

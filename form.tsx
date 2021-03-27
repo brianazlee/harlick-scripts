@@ -570,7 +570,7 @@ const descriptions: Description[] = [
         name: 'Artistic crystals (inquire about design options) (Starting from $50.00)',
         hideNoCharge: true,
         image:
-          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/605309e3b706164bacffdeaa/1616054755945/Rectangle+2-3.png?format=750w',
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/605ec7869c3c7737d9b395f3/1616824198874/Rectangle+4+%281%29.png?format=750w',
         desc: (
           <div>
             <p>Crystals can be added to the upper near the lace holes.</p>

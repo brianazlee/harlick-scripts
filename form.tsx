@@ -419,10 +419,14 @@ const descriptions: Description[] = [
               A cast is then poured into the foot impression to build the orthopaedic arch
               support.
             </p>
+
+            <p>
+              If you already have a impression mold of your foot, please let us know and
+              we can reduce the cost of this option.
+            </p>
           </div>
         ),
       },
-      {name: 'Cast poured from foot impression kit', desc: <div />},
       {
         name: 'Orthopedic arch support',
         image:

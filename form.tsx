@@ -518,6 +518,8 @@ const descriptions: Description[] = [
       },
       {
         name: 'Dance backstay',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/605ecce70fbea64d81ab3843/1616825575632/Rectangle+10+%282%29.png?format=750w',
         desc: (
           <p>
             ½ to ¾ inch deep cutout to increase toe pointing and range of motion. Ideal

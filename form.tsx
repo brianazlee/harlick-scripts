@@ -164,7 +164,7 @@ const descriptions: Description[] = [
   },
 
   {
-    section: 'Tongue materials',
+    section: 'Tongue lining',
     items: [
       {
         name: 'Polyurethane foam padded tongues',
@@ -221,7 +221,7 @@ const descriptions: Description[] = [
   {
     section: 'Insole options',
     items: [
-      {name: 'None', desc: <div />},
+      {name: 'Standard', desc: <div />},
       {
         name: 'Growth insoles',
         desc: (
@@ -309,7 +309,7 @@ const descriptions: Description[] = [
   {
     section: 'Special soles',
     items: [
-      {name: 'None', desc: <div />},
+      {name: 'Standard', desc: <div />},
       {
         name: 'Lightweight carbon graphite soles',
         image:

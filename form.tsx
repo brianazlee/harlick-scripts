@@ -615,10 +615,22 @@ const descriptions: Description[] = [
         desc: <p>Duo bond ankle reinforcement (strong). Two layer construction.</p>,
       },
       {
+        name: "Competitor Plus children's size",
+        desc: <p>Duo bond ankle reinforcement (strong). Two layer construction.</p>,
+      },
+      {
         name: 'Competitor',
         desc: <p>Light ankle reinforcement (medium). Two layer construction.</p>,
       },
+      {
+        name: "Competitor children's size",
+        desc: <p>Light ankle reinforcement (medium). Two layer construction.</p>,
+      },
       {name: 'Standard', desc: <p>No ankle reinforcement. Two layer construction</p>},
+      {
+        name: "Standard children's size",
+        desc: <p>No ankle reinforcement. Two layer construction</p>,
+      },
     ],
   },
 

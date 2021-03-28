@@ -621,6 +621,15 @@ const descriptions: Description[] = [
       {name: 'Standard', desc: <p>No ankle reinforcement. Two layer construction</p>},
     ],
   },
+
+  {
+    section: 'Combination width options (up to two widths)',
+    items: [
+      {name: 'Combination width ball and heel'},
+      {name: 'Left and right split sizing (up to 1/4 size difference)'},
+      {name: 'X-Line design'},
+    ],
+  },
 ];
 
 export function applyFormDescriptions(formEl: Element) {

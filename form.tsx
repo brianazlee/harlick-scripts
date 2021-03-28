@@ -585,6 +585,42 @@ const descriptions: Description[] = [
       },
     ],
   },
+
+  // Stock boots only
+  {
+    section: 'Stock boot type',
+    items: [
+      {
+        name: 'Finalist',
+        desc: (
+          <p>
+            Double duo bond ankle reinforcement (extra strong). Three layer construction.
+          </p>
+        ),
+      },
+      {
+        name: 'High tester',
+        desc: <p>Duo bond ankle reinforcement (strong). Three layer construction.</p>,
+      },
+      {
+        name: 'Competitor Plus Plus',
+        desc: (
+          <p>
+            Double duo bond ankle reinforcement (extra strong). Two layer construction.
+          </p>
+        ),
+      },
+      {
+        name: 'Competitor Plus',
+        desc: <p>Duo bond ankle reinforcement (strong). Two layer construction.</p>,
+      },
+      {
+        name: 'Competitor',
+        desc: <p>Light ankle reinforcement (medium). Two layer construction.</p>,
+      },
+      {name: 'Standard', desc: <p>No ankle reinforcement. Two layer construction</p>},
+    ],
+  },
 ];
 
 export function applyFormDescriptions(formEl: Element) {

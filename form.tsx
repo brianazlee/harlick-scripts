@@ -633,13 +633,56 @@ const descriptions: Description[] = [
       },
     ],
   },
-
   {
     section: 'Combination width options (up to two widths)',
     items: [
       {name: 'Combination width ball and heel'},
       {name: 'Left and right split sizing (up to 1/4 size difference)'},
       {name: 'X-Line design'},
+    ],
+  },
+  {
+    section: 'Additional stock boot options',
+    items: [
+      {
+        name: 'Special height heels 1 7/8"',
+        desc: (
+          <p>
+            Special heel heights range from a low heel (1 ½ inches) up to a high heel (2 ½
+            inches). Oftentimes, dance skaters prefer a higher heel to provide better
+            posture and more of a pointed toe look.
+          </p>
+        ),
+      },
+      {
+        name: 'Lightweight carbon graphite soles',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053aff2eaa9a8018c1ee554/1616097266920/Rectangle+8.png?format=500w',
+        desc: (
+          <p>
+            Lightweight carbon fiber soles can reduce the boot weight by 20% without
+            sacrificing durability and strength. Harlick only uses genuine carbon fiber.
+          </p>
+        ),
+      },
+      {name: 'Lightweight leather soles', desc: <div />},
+      {
+        name: 'Low cut backstay',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053b26f12ac4465104f74f9/1616097903401/Rectangle+8.png?format=500w',
+        desc: <p>¼ to ½ inch deep cutout to increase toe pointing and range of motion</p>,
+      },
+      {
+        name: 'Low cut backstay with insert (lower than height of dance backstay)',
+        image:
+          'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/605309e3d1b52f422f2bd767/1616054755850/Rectangle+2-1.png?format=500w',
+        desc: (
+          <p>
+            ¼ to ½ inch deep cutout to increase toe pointing and range of motion with an
+            additional padded poron insert
+          </p>
+        ),
+      },
     ],
   },
 ];

@@ -494,7 +494,7 @@ const descriptions: Description[] = [
     section: 'Backstays',
     items: [
       {
-        name: 'No backstay',
+        name: 'Standard backstay',
         image:
           'https://static1.squarespace.com/static/600bc6c387812b75eb08fa1a/604df01c8a332d4efd8787f0/6053b1eec02ba770d353fa7d/1616097774700/Rectangle+7.png?format=500w',
         desc: <div />,

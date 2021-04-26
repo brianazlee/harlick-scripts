@@ -60,7 +60,7 @@ export function renderPriceCalculator(formEl: Element) {
           <dl>
             <dt>Deposit price</dt>
             <dd>${Number(productCost).toFixed(2)}</dd>
-            <dt>Customizations</dt>
+            <dt>Outstanding Balance</dt>
             <dd>${price.toFixed(2)}</dd>
           </dl>
           <dl className="total">

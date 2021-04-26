@@ -694,8 +694,6 @@ const descriptions: Description[] = [
 ];
 
 export function applyFormDescriptions(formEl: Element) {
-  // TOOD
-
   const formItems = Array.from(formEl.querySelectorAll('.form-item'));
 
   formItems.forEach(section => {
@@ -777,4 +775,10 @@ export function applyFormDescriptions(formEl: Element) {
       render(newLabel, entryRoot);
     });
   });
+
+  const submit = formEl.querySelector('.form-button-wrapper input[type="submit"]');
+
+  if (submit !== null) {
+    submit.textContent = 'Pay Deposit';
+  }
 }

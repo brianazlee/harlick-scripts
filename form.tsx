@@ -776,9 +776,7 @@ export function applyFormDescriptions(formEl: Element) {
     });
   });
 
-  const submit = formEl.querySelector('.form-button-wrapper input[type="submit"]');
-
-  if (submit !== null) {
-    submit.textContent = 'Pay Deposit';
-  }
+  formEl
+    .querySelector<HTMLInputElement>('.form-button-wrapper input[type="submit"]')
+    ?.setAttribute('value', 'Pay Deposit');
 }
